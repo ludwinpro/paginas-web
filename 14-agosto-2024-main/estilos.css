@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tiny5&display=swap');
+
+h1 {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#67073a;
+    padding: 1rem;
+  }  
+  header {
+    
+    background-color: #b7236f;
+    
+  }
+  main {
+    background-color: #f98dc9;
+
+  }
+  aside {
+    background-color: #a8f6f8;
+
+  }
+  footer {
+    background-color: #27fdf5;
+
+  }
+
+
+/* diseño responsivo con media queries /*/
+@media(max-width: 600px){
+    #container{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr auto ;
+      height: 100vh;
+      gap: 1rem;
+}
+}
+ /* body {
+     background-color: blueviolet;
+ }*/
+
+
+@media (min-width: 600px){
+    #container{
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        grid-template-rows:auto 1fr auto ;
+        height: 100vh;
+        gap: 1rem;
+        grid-template-areas: 
+        "cabeza cabeza cabeza "
+        "principal principal lado "
+        "pie pie pie"
+        ;
+    }
+header {
+    grid-area: cabeza;
+}    
+main {
+    grid-area: principal;
+}
+aside {
+    grid-area: lado;
+
+}
+footer {
+        grid-area: pie;
+}
+
+
+}

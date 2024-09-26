@@ -1,0 +1,15 @@
+Machine:   Mac-mini-de-Macmini25.local in domain 
+User:      alumno
+Mode:      64-Bit
+Display:   Display not detectable
+Driver:    Driver not detectable
+CPU:       Name: 
+           Model: 0, Family: 0, Stepping: 0 
+           Total Threads: 8
+           Features: 
+Base path: /Applications/Adobe After Effects 2023/Adobe After Effects 2023.app/Contents/MacOS/
+Arguments: 
+
+14:30:46 [IrLog]           LogFile initialized
+14:30:46 [GlobalSettings]  Loading user settings from /Users/alumno/Documents/Adobe/Lumetri/9.0/settings/User_Settings.xml
+14:30:46 [GlobalSettings]  Failed to load user settings, using default values.

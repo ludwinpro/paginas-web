@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li></li><a href="page2.html">pagina2</a></li>
+                
+            </ol>
+        </nav>
+
+    </header>
+    <main>
+       <h3>formulario </h3>
+       <!-- en action deberia tener una -->
+       <form action="" method="get">
+        <label for="name">nombre</label>
+        <input type="text"name="fname">
+        <label for="name">apellido</label>
+        <input type="text"name="lname">
+        <label for="@gmail.com">Email</label>
+        <input type="email "name="email">
+        <input type="submit"value="suscribirme">
+
+
+       </form>
+       <h4>formulario 2</h4>
+       <form action=""method=get>
+        <fieldset>
+            <legend>¿cual preferis?</legend>
+            <label><input type= "radio" name="radio" valor="html">HTML</label>
+            <label><input type= "radio" name="radio" valor="css">CSS</label>
+            <label><input type= "radio" name="radio" valor="js">Javascript</label>
+            <button>save</button>
+        </fieldset>
+       </form>
+       <h3> formulario 3</h3>
+       <form action="">
+        <label for="navegadores">¿que navegador usas?</label>
+        <input list="navegadores" name="navegadores" placeholder="elige navegador">
+        <datalist id="navegadores">
+            <optgroup>
+                <option value="edge">
+                <option value="firefox">
+                <option value="chrome">    
+                <option value="safari">    
+                <option value="opera">    
+            </optgroup>
+        </datalist>
+        <input type="button" value="submit">
+        <label for="file">File</label>
+        <progress value="32" max="100"> 32%</progress>
+
+       </form>
+      
+       
+
+
+        
+    </main>
+    <aside>
+        <h2>
+            TEMAS RELACIONADOS
+            <ol>
+                <li><a href="">tema relacionado 1</a> </li>
+                <li><a href="">tema relacionado 2</a> </li>
+                <li><a href="">tema relacionado 3</a> </li>
+                <li><a href="">tema relacionado 4</a> </li>
+
+            </ol>
+        </h2>
+
+    </aside>
+    <footer>
+    <p>creditos</p>
+    </footer>
+    
+</body>
+</html>
