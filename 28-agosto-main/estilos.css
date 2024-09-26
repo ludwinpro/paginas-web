@@ -1,0 +1,71 @@
+
+
+svg {
+    width: 70%;
+}
+header {
+    
+    background-color: #b7236f;
+    
+  }
+  main {
+    background-color: #f98dc9;
+
+  }
+  aside {
+    background-color: #a8f6f8;
+
+  }
+  footer {
+    background-color: #27fdf5;
+
+  }
+
+
+/* diseño responsivo con media queries /*/
+@media(max-width: 600px){
+    #container{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto 1fr auto ;
+      height: 100vh;
+      gap: 1rem;
+}
+}
+ /* body {
+     background-color: blueviolet;
+ }*/
+
+
+@media (min-width: 600px){
+    #container{
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        grid-template-rows:auto 1fr auto ;
+        height: 100vh;
+        gap: 1rem;
+        grid-template-areas: 
+        "cabeza cabeza cabeza "
+        "principal principal lado "
+        "pie pie pie"
+        ;
+    }
+header {
+    grid-area: cabeza;
+}    
+main {
+    grid-area: principal;
+}
+aside {
+    grid-area: lado;
+
+}
+footer {
+        grid-area: pie;
+}
+
+
+}
+.borde{
+    border-radius: 8px 8px 8px 8px ;
+}
